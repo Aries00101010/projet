@@ -1,13 +1,18 @@
 package entities;
 
-public class User {
+import java.util.ArrayList;
+import java.util.List;
+
+public class test {
 	String nom;
 	String prenom;
 	String login;
 	String motDePass;
+	List<String> droits;
 	
 	public User() {
-		
+		this.droits = new ArrayList<String>();
+	
 	}
 	
 	public User(String nom, String prenom, String login, String motDePass) {
@@ -40,5 +45,4 @@ public class User {
 	}
 	public void setMotDePass(String motDePass) {
 		this.motDePass = motDePass;
-	}
 }
