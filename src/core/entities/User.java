@@ -3,7 +3,7 @@ package entities;
 import java.util.ArrayList;
 import java.util.List;
 
-public class test {
+public class User {
 	String nom;
 	String prenom;
 	String login;
@@ -45,4 +45,5 @@ public class test {
 	}
 	public void setMotDePass(String motDePass) {
 		this.motDePass = motDePass;
+	}
 }
