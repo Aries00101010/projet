@@ -1,0 +1,112 @@
+commit 47ede9ecb5d21c2ca0aba772e7be4ef12b8e489c
+Merge: b446166 ad3ba76
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:54:00 2017 +0100
+
+    Merge branch 'master' of https://github.com/Aries00101010/projet
+
+commit b446166916a514b68229156b156a85ce58f016f4
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:52:56 2017 +0100
+
+    ajout fichier exclusion
+
+commit ad3ba7626b4654fc49c7caa4c02bf50c87ca128d
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:51:47 2017 +0100
+
+    creation JSON conf.prog
+
+commit 0e664fa111e1fc7d1bf65223964a0354033187a0
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:45:23 2017 +0100
+
+    creation fichier log
+
+commit 2f42768f806f16ad13e54c22c8386752a7c3a711
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:41:51 2017 +0100
+
+    Creation log
+
+commit 63dce768074cec7ff08cfe5d784905c73d2d3275
+Merge: be99022 ac9e92a
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:39:08 2017 +0100
+
+    Merge branch 'master' into dev
+
+commit be99022a7b358039b8d675709fa2a24ba05ff465
+Merge: 31b751d 480b96f
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:30:45 2017 +0100
+
+    Merge branch 'romainBizeul' into dev
+
+commit ac9e92ad641fa67e669cc22b1e8ab553ab4f4d24
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:28:58 2017 +0100
+
+    Correction Application.xml
+
+commit 480b96f3eafca8c08d00d0785eb6d929c2f697ed
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:27:56 2017 +0100
+
+    creation de la classe Droits
+
+commit 987950db461cdbd0bf99d3fb40f112b94d5d32a8
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:21:46 2017 +0100
+
+    Suppression du fichier git log
+
+commit 204a832b7f288e7d7c71c4783c2f88511de3b317
+Merge: 31b751d 55f7bba
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:17:03 2017 +0100
+
+    Merge branch 'kevinHenkes' into dev
+
+commit 31b751dfdda2830b5bebecc0baddf468df76626a
+Merge: 527df40 81f187d
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:16:24 2017 +0100
+
+    Merge branch 'romainBizeul' into dev
+
+commit 81f187da8517870d77ae93f8b3aba448e1ad5394
+Author: romain bizeul <romain.bizeul@gmail.com>
+Date:   Tue Jan 10 16:13:15 2017 +0100
+
+    Creation constructeur user
+
+commit 55f7bba843b523f35630d1153411e488ce98542d
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 16:03:18 2017 +0100
+
+    Creation point entree de Main.java
+
+commit 527df40dc9583993fed6c70c11ed350569b17761
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 15:57:09 2017 +0100
+
+    Creation constructeur User
+
+commit 415d7ad491ee281fe0a942a478f2f0496d4a6318
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 15:52:23 2017 +0100
+
+    modification de application.xml
+
+commit 8363a82c1dfcab6607158e8ab1f634d8b5f188fb
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 15:47:08 2017 +0100
+
+    Creation de la classe user et du fichier git log
+
+commit efcef1f6a7bc484df861111b46fa704d47ea6df4
+Author: Aries00101010 <kevin.henkes@laposte.net>
+Date:   Tue Jan 10 15:43:01 2017 +0100
+
+    initialisation du projet
