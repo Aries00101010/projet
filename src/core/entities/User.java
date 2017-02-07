@@ -9,6 +9,7 @@ public class User {
 	String login;
 	String motDePass;
 	List<Droits> droits;
+	String numEmployer;
 	
 	public User() {
 		this.droits = new ArrayList<Droits>();
