@@ -10,6 +10,7 @@ CREATE TABLE user IF NOT EXISTS(
         idUser    int (11) Auto_increment  NOT NULL ,
         nom       Varchar (25) ,
         prenom    Varchar (25) ,
+        login	  Varchar (25) ,
         motDePass Varchar (25) ,
         PRIMARY KEY (idUser )
 )ENGINE=InnoDB;
