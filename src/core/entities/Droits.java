@@ -1,5 +1,8 @@
 package core.entities;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class Droits {
 	int niveau;
 	int severite;
@@ -41,5 +44,17 @@ public class Droits {
 	public void setSociete(String societe) {
 		this.societe = societe;
 	}
+	
+	@Override
+    public String toString() {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            return mapper.writeValueAsString(this);
+        } catch (JsonProcessingException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return "Imcomprehensible fatal error !";
+        }
+    }
 	
 }
