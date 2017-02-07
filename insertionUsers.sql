@@ -1,5 +1,5 @@
-INSERT INTO user (nom, prenom, motDePass) VALUES ("Skywalker", "Luke", "Leia4ever"); 
-INSERT INTO user (nom, prenom, motDePass) VALUES ("Skywalker", "Anakin", "Jemelamort");
+INSERT INTO user (nom, prenom, login, motDePass) VALUES ("Skywalker", "Luke", "LuckyShotsLeiaLikeAnAnimal", "Leia4ever"); 
+INSERT INTO user (nom, prenom, login, motDePass) VALUES ("Skywalker", "Anakin", "Mr.Vadoooor", "Jemelamort");
 
 INSERT INTO droit (niveau, severite, nom, societe) VALUES (10, 10, "Protéger Tatooine", "Ordre des Jedis");
 INSERT INTO droit (niveau, severite, nom, societe) VALUES (10, 10, "Détruire Tatooine", "Force obscure");
