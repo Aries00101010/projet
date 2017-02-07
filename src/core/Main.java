@@ -32,6 +32,7 @@ public class Main {
 	final static String RETURNCHAR = "\n";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		User user1 = new User();
 		User user2 = new User();
 		

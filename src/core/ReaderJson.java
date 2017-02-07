@@ -6,7 +6,6 @@ import java.io.IOException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import core.entities.Configuration;
-import core.entities.Users;
 
 public class ReaderJson {
 	ObjectMapper mapper;	
