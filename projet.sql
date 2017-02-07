@@ -6,7 +6,7 @@ USE projet;
 # Table: User
 #------------------------------------------------------------
 
-CREATE TABLE User IF NOT EXISTS(
+CREATE TABLE user IF NOT EXISTS(
         idUser    int (11) Auto_increment  NOT NULL ,
         nom       Varchar (25) ,
         prenom    Varchar (25) ,
