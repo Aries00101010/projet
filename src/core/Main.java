@@ -24,6 +24,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
+import core.entities.Configuration;
 import core.entities.Droits;
 import core.entities.User;
 import core.entities.Users;
@@ -74,14 +75,15 @@ public class Main {
 		try {
 			//Object to JSON in file
 			mapper.writeValue(usersJson, usersOut);
-			//JSON in file to Object
-			usersIn = mapper.readValue(usersJson, Users.class);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
 		
-		System.out.println(usersIn.getListeUsers().get(0).getNom());
+		ReaderJson readerJson = new ReaderJson();
+		Configuration conf = readerJson.readFileJson(new File("conf.prog"));
+		
+		ConnectionManager.initDb(conf);
 	}
 
 }

@@ -14,10 +14,10 @@ public class ConnectionManager {
 	private static Connection connection;
 	
 	
-	public void initDb(Configuration configuration) {
-		this.URL = configuration.getUrl();
-		this.USER = configuration.getLogin();
-		this.PASSWORD = configuration.getMdp();
+	public static void initDb(Configuration configuration) {
+		ConnectionManager.URL = configuration.getUrl();
+		ConnectionManager.USER = configuration.getLogin();
+		ConnectionManager.PASSWORD = configuration.getMdp();
 	}
 	
 	public static Connection getConnection() {
