@@ -6,7 +6,7 @@ USE projet;
 # Table: User
 #------------------------------------------------------------
 
-CREATE TABLE User(
+CREATE TABLE User IF NOT EXISTS(
         idUser    int (11) Auto_increment  NOT NULL ,
         nom       Varchar (25) ,
         prenom    Varchar (25) ,
@@ -19,7 +19,7 @@ CREATE TABLE User(
 # Table: droit
 #------------------------------------------------------------
 
-CREATE TABLE droit(
+CREATE TABLE droit IF NOT EXISTS(
         idDroits int (11) Auto_increment  NOT NULL ,
         niveau   Int ,
         severite Int ,
@@ -33,7 +33,7 @@ CREATE TABLE droit(
 # Table: possède
 #------------------------------------------------------------
 
-CREATE TABLE possede(
+CREATE TABLE possede IF NOT EXISTS(
         idUser   Int NOT NULL ,
         idDroits Int NOT NULL ,
         PRIMARY KEY (idUser ,idDroits )
