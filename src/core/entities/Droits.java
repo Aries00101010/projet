@@ -1,4 +1,4 @@
-package entities;
+package core.entities;
 
 public class Droits {
 	int niveau;
