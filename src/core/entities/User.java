@@ -8,10 +8,10 @@ public class User {
 	String prenom;
 	String login;
 	String motDePass;
-	List<String> droits;
+	List<Droits> droits;
 	
 	public User() {
-		this.droits = new ArrayList<String>();
+		this.droits = new ArrayList<Droits>();
 	
 	}
 	
@@ -46,4 +46,15 @@ public class User {
 	public void setMotDePass(String motDePass) {
 		this.motDePass = motDePass;
 	}
+
+	public List<Droits> getDroits() {
+		return droits;
+	}
+
+	public void setDroits(List<Droits> droits) {
+		this.droits = droits;
+	}
+
+	
+	
 }
