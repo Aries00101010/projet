@@ -1,0 +1,44 @@
+"User" : [
+    {
+		"numEmployer":"weuhfiwhi45",
+        "nom": "Skywalker",
+        "prenom": "Luke",
+        "login": "uckyShotsLeiaLikeAnAnimal",
+        "motDePass": "Leia4ever",
+        "droits": [
+            {
+                "niveau": 10,
+                "severite": 10,
+                "nom": "Protéger Tatooine",
+                "societe": "Ordre des Jedis"
+            },
+            {
+                "niveau": 10,
+                "severite": 10,
+                "nom": "Organiser des réunions avec Darth Vador pour manger des pizzas",
+                "societe":  "Ordre des Jedis"
+            }
+        ]
+    },
+    {
+		"numEmployer":"gwuhwi35",
+        "nom": "Skywalker",
+        "prenom": "Anakin",
+        "login": "Mr.Vadoooor",
+        "motDePass": "Jemelamort",
+        "droits":  [
+            {
+                "niveau": 10,
+                "severite": 10,
+                "nom": "Détruire Tatooine",
+                "societe": "Force obscure"
+            },
+            {
+                "niveau": 10,
+                "severite": 10,
+                "nom": "Créer une étoile de la Pizza",
+                "societe": "Force obscure"
+            }
+        ]
+    }
+]
